@@ -16,3 +16,12 @@ jobs:
         with:
           name: my-artifact
           path: ${{github.workspace}}
+  
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact
+          path: ${{github.workspace}}
