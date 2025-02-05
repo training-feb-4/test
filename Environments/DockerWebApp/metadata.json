@@ -1,0 +1,6 @@
+{
+  "itemDisplayName": "Tailspin Docker Web App",
+  "description": "This template creates an Azure Web App from the latest version of Tailspin Docker Image stored in ACR",
+  "githubUsername": "grenstong",
+  "summary": "Deploys an Azure Web App as an environment in a DevTest Lab. Fetches the container image from Tailspin ACR"
+}
