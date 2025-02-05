@@ -9,7 +9,7 @@ jobs:
     name: test
     runs_on: ubuntu latest
     steps:
-     - uses: actions/checkout
+     - uses: actions/checkout@v4
 
      - name: run one line script
        run: echo Hello world!
